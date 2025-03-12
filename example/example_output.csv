@@ -1,0 +1,9 @@
+type,name,description,price,num_min_options,num_max_options,num_free_options
+Category,Burgers,,,,,
+Item,Cheddar Cheese Smash Burger,"2 smashed Angus pattys, topped with caramelized onions, pink sauce and cheddar cheese sauce.",1499,,,
+Item,Breakfast Burger,"Mozzarella cheese, sunny side up egg, bacon, Angus patty, caramelized onion ketchup, mayonnaise.",1499,,,
+Item,The Colombian Burger,"Mozzarella cheese, Angus patty, bacon, Lay chips, pineapple sauce, pink sauce, grape sauce.",1499,,,
+Item,El Domi,"Toston (plantain), fried cheese, fried salami, bacon, pickled onions, tomato, pink sauce, Angus patty.",1499,,,
+Category,Hotdogs,,,,,
+Item,La Perra,"Hot dog, bacon, mozzarella cheese, Lays chips, quail eggs, pink sauce, pineapple sauce, mustard.",1099,,,
+Item,Plain Hot Dog,Plain hot dog served with ketchup.,600,,,
