@@ -13,7 +13,7 @@ from openai import OpenAI
 import os
 import pandas as pd 
 
-# OPEN_AI_API_KEY = os.getenv("YOU_OPENAI_KEY")
+openai_api_key = os.getenv("YOU_OPENAI_API_KEY")
 
 
 extraction_examples = """
@@ -492,6 +492,6 @@ response_format = {"type": "json_object"}
 model_name = 'gpt-4o'
 
 # initialize the model
-chat_agent = ChatCompletionAgent(model_name, OPEN_AI_API_KEY, temperature, response_format)
+chat_agent = ChatCompletionAgent(model_name, openai_api_key, temperature, response_format)
 menu_builder_model = menuBuilder(system_instruction_prompt, menu_extraction_prompt, extraction_examples, chat_agent)
 
