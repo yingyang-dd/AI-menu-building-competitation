@@ -1,0 +1,1 @@
+This example model is designed for simple menus without modifiers (extras/options). It will not perform well with the more complex menu given in this challenge, but you’re welcome to use it as a starting point.
